@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h2 class="logo">MyPortfolio</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="home">
+    <div class="profile-img">
+        <img src="profile pic.jpg" alt="Nayab Dilshad">
+    </div>
+
+    <h1>Hello, I'm <span>Nayab Dilshad</span></h1>
+    <h3>Frontend Web Developer</h3>
+    <p>Intern at CodeAlpha | BS-IT Student at SBBU University</p>
+    <button onclick="scrollToContact()">Hire Me</button>
+
+</section>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+       <p>
+          Hello! I'm a dedicated Frontend Web Developer and BS IT student at SBBU University. 
+          I specialize in creating responsive and visually appealing websites using modern web technologies. 
+          I have a strong interest in UI design, clean code, and improving user experience. 
+
+          Currently, I am working as a Frontend Development Intern at CodeAlpha, where I am gaining hands-on experience 
+          by building real-world web applications. I am always eager to learn new technologies, solve problems, 
+          and turn creative ideas into functional digital products.
+</p>
+    </p>
+</section>
+
+<section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skill-box">
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>JavaScript</div>
+        <div>Responsive Design</div>
+        <div>Git & GitHub</div>
+    </div>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>🧮 Calculator</h3>
+        <p>
+            A responsive calculator built using HTML, CSS, and JavaScript. 
+            It supports all basic arithmetic operations with keyboard functionality 
+            and modern UI design.
+        </p>
+        <a href="https://github.com/nayabD123/Code-Alpha-Calculator" target="_blank">View Code</a>
+    </div>
+
+    <div class="project-card">
+        <h3>🖼 Image Gallery</h3>
+        <p>
+            A clean and responsive image gallery designed using HTML and CSS. 
+            It displays images in an organized layout with modern styling.
+        </p>
+        <a href="https://github.com/nayabD123/Code-Alpha-Image-Gallery" target="_blank">View Code</a>
+    </div>
+
+    <div class="project-card">
+        <h3>🌐 Landing Page</h3>
+        <p>
+            A responsive landing page built with HTML and CSS featuring 
+            modern layout, navigation bar, and clean UI design.
+        </p>
+        <a href="https://github.com/nayabD123/landing-page" target="_blank">View Code</a>
+    </div>
+
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Nayab Dilshad| Frontend Developer</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
